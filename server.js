@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 //Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/newapp', {
+mongoose.connect('mongodb+srv://pkshum:password1357@cluster0.g14ysuy.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongDB Connected'))
